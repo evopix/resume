@@ -9,7 +9,7 @@ services:
       - type: bind
         source: ./
         target: /app
-    command: npx hackmyresume build resume.json TO resume.html -o options.json
+    command: npx hackmyresume build resume.json TO build/resume.html -o options.json
   txt-builder:
     user: pwuser
     build:
@@ -19,7 +19,7 @@ services:
       - type: bind
         source: ./
         target: /app
-    command: npx hackmyresume build resume.json TO resume.txt resume.md resume.md
+    command: npx hackmyresume build resume.json TO build/resume.txt build/resume.md
   pdf-builder:
     user: pwuser
     build:
