@@ -25,11 +25,25 @@
     },
     "work": [
         {
+            "name": "Upstart",
+            "location": "Remote",
+            "position": "Senior Software Engineer",
+            "url": "https://www.upstart.com",
+            "startDate": "2021-11",
+            "summary": "Senior engineer focusing on increasing lead generation as part of the Growth team.",
+            "highlights": [
+                "Worked across multiple teams to quickly implement new loan funding rules to adapt to rapidly changing macro-economic environment",
+                "Led development of new Salesforce integrations to enhance marketing channels",
+                "Collaborated with multiple engineers to split microservices off of the main monolith application"
+            ]
+        },
+        {
             "name": "iSpot.tv",
             "location": "Bellevue, WA",
             "position": "Senior Software Engineer",
             "url": "https://www.ispot.tv",
             "startDate": "2015-06",
+            "endDate": "2021-11",
             "summary": "Lead developer on numerous projects as well as managing all team specific DevOps/Infrastructure work.",
             "highlights": [
                 "Led development of new REST API to unify data across all consumers and clients",
@@ -91,11 +105,11 @@
         {
             "name": "Specialties",
             "keywords": [
-                "API Design and Development",
-                "PHP",
+                "API Design/Development",
+                "Ruby/Rails",
                 "JavaScript",
                 "NodeJS",
-                "Symfony",
+                "PHP",
                 "AWS",
                 "Docker",
                 "Terraform",
@@ -109,6 +123,7 @@
             "keywords": [
                 "Python",
                 "Golang",
+                "React",
                 "Snowflake",
                 "DevOps",
                 "SysAdmin"
