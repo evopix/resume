@@ -1,6 +1,8 @@
 name: Build and Publish
 on:
   push:
+    branches:
+      - main
     tags:
       - v*
 permissions:
@@ -46,17 +48,11 @@ jobs:
     steps:
       - name: Download artifacts
         uses: actions/download-artifact@v3
-      - name: Create checksums
-        run: |
-          set -x
-          for dir in $(pwd)/artifact-*; do
-            cd $dir
-            sha256sum -b * >> ~/checksums.sha256
-          done
       - name: Display structure of downloaded files
         run: ls -R
       - name: Release
         uses: softprops/action-gh-release@v1
+        working-directory: ./artifact-resume
         with:
           files: |
             resume.pdf
@@ -64,44 +60,3 @@ jobs:
             resume.md
             resume.txt
             resume.json
-      # - name: Create release
-      #   id: release
-      #   run: |
-      #     set -x
-      #     curl --request POST \
-      #       --url https://api.github.com/repos/${{ github.repository }}/releases \
-      #       --header "Accept: application/vnd.github.v3+json" \
-      #       --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-      #       --header "Content-Type: application/json" \
-      #       --data '{
-      #         "tag_name": "${{ github.ref_name }}",
-      #         "name": "Release ${{ github.ref_name }}",
-      #         "body": "Release ${{ github.ref_name }}",
-      #         "draft": true
-      #       }' \
-      #       --fail > release.json
-      #     id=$(jq .id release.json)
-      #     echo "::set-output name=id::$id"
-      # - name: Upload artifacts
-      #   run: |
-      #     set -x
-      #     for file in $(ls artifact-*/*.{tar.bz2,zip}) ~/checksums.sha256; do
-      #       filename=$(basename -- "$file")
-      #       extension="${filename#*.}"
-      #       type="text/plain"
-      #       case $extension in
-      #         zip)
-      #           type="application/zip"
-      #           ;;
-      #         tar.bz2)
-      #           type="application/x-bzip2"
-      #           ;;
-      #       esac
-      #       curl --request POST \
-      #         --url https://uploads.github.com/repos/${{ github.repository }}/releases/${{ steps.release.outputs.id }}/assets?name=${filename} \
-      #         --header "Accept: application/vnd.github.v3+json" \
-      #         --header "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-      #         --header "Content-Type: ${type}" \
-      #         --data-binary "@${file}" \
-      #         --fail
-      #     done
