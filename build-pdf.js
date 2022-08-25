@@ -3,7 +3,7 @@ const path = require('path');
 const playwright = require('playwright');
 
 async function main() {
-  const htmlFile = path.resolve('./output/resume.html');
+  const htmlFile = path.resolve('./build/resume.html');
 
   const browser = await playwright.chromium.launch({
     args: ['--disable-dev-shm-usage'],
@@ -20,7 +20,7 @@ async function main() {
       right: '0.4in',
       top: '0.4in',
     },
-    path: 'output/resume.pdf',
+    path: 'build/resume.pdf',
     preferCSSPageSize: true,
     printBackground: true,
   });

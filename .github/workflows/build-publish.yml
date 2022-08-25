@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Publish
 on:
   push:
     branches:
@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir build
           npx hackmyresume build resume.json TO build/resume.html -o options.json
-          npx hackmyresume build resume.json TO build/resume.txt build/build.md build/resume.md
+          npx hackmyresume build resume.json TO build/resume.txt build/resume.md
           node build-pdf.js
           cp resume.json ./build
 
