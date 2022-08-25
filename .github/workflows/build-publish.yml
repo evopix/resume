@@ -30,6 +30,7 @@ jobs:
           mkdir build
           npx hackmyresume build resume.json TO build/resume.html -o options.json
           npx hackmyresume build resume.json TO build/resume.txt build/resume.md -o options.json
+          node build-pdf.js
           cp resume.json ./build
 
       - name: Upload Artifacts
