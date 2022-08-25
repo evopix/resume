@@ -26,7 +26,6 @@ jobs:
           npx playwright install-deps chromium
 
       - name: Build
-        working-directory: ./resume
         run: |
           mkdir build
           npx hackmyresume build resume.json TO build/resume.html -o options.json
