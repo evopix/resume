@@ -78,12 +78,7 @@
             "url": "https://www.boxwave.com",
             "startDate": "2011-05",
             "endDate": "2011-09",
-            "summary": "As part of the development team, my responsibilities included the company’s custom ERP system, customer facing e-commerce website, as well as all new web related projects.",
-            "highlights": [
-                "Built a custom lightweight ColdFusion framework for use in the redesign of the company’s e-commerce website",
-                "Enhanced and extended features of custom ERP system ",
-                "Converted design mock-ups into usable pages for the redesign of main e-commerce website"
-            ]
+            "summary": "As part of the development team, my responsibilities included the company’s custom ERP system, customer facing e-commerce website, as well as all new web related projects."
         },
         {
             "name": "Seven Springs Sales, LLC",
@@ -92,13 +87,7 @@
             "url": "https://prowheelracing.com",
             "startDate": "2005-09",
             "endDate": "2011-04",
-            "summary": "Originally hired to maintain existing online projects and aid in the creation of marketing materials, my role eventually grew to overseeing a second graphics designer, as well as creating custom web applications for both offline intranet use and online customer use.",
-            "highlights": [
-                "Built a custom e-commerce web application, for use on multiple company websites",
-                "Built a sponsorship management system as an extension of the MODx CMS",
-                "Created company catalogs and advertisements",
-                "Helped to create design mock-ups, per customer needs, for custom products"
-            ]
+            "summary": "Originally hired to maintain existing online projects and aid in the creation of marketing materials, my role eventually grew to overseeing a second graphics designer, as well as creating custom web applications for both offline intranet use and online customer use."
         }
     ],
     "skills": [
