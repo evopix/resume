@@ -1,8 +1,8 @@
 name: Build and Publish
 on:
   push:
-    branches:
-      - main
+    tags:
+      - v*
 permissions:
   contents: write
 jobs:
@@ -63,6 +63,7 @@ jobs:
             resume.html
             resume.md
             resume.txt
+            resume.json
       # - name: Create release
       #   id: release
       #   run: |
