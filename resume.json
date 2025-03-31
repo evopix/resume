@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Brandon Summers",
-        "label": "Senior Software Engineer",
+        "label": "Principal Software Engineer",
         "email": "brandon@brandonsummers.name",
         "phone": "(425) 760-6214",
         "url": "http://brandonsummers.name",
         "location": {
-            "city": "Seattle",
+            "city": "East Wenatchee",
             "countryCode": "US",
             "region": "Washington"
         },
@@ -25,16 +25,36 @@
     },
     "work": [
         {
+            "name": "iSpot.tv",
+            "location": "Remote",
+            "position": "Principal Software Engineer",
+            "url": "https://www.ispot.tv",
+            "startDate": "2023-02",
+            "summary": "Principal engineer in the Product Engineering org working across multiple teams and directly with VPs.",
+            "highlights": [
+                "Worked across teams to build and standardize tooling in an effort to increase developer efficiency (e.g. automated code quality checking)",
+                "Participated in RCA and Technical Design Review meetings",
+                "Worked across teams and orgs to develop and share best practices, improve engineering standards, and formalize development processes (guilds, RFCs, feature flags, etc)",
+                "Created and implemented plan to move teams away from Jenkins and onto more modern systems (CircleCI, Airflow, Windmill)",
+                "Worked with teams to standardize implementation of common features (e.g. health checks, feature flags, preview environments)",
+                "Impelemented many high priority features across multiple projects",
+                "Worked extensively with DevOps on migrating existing services to new standardized AWS infrastructure (Kubernetes, ArgoCD)",
+                "Mentored other developers on best practices, implementation approaches, and general career topics",
+                "Worked across multiple projects to reduce major tech-debt"
+            ]
+        },
+        {
             "name": "Upstart",
             "location": "Remote",
             "position": "Senior Software Engineer",
             "url": "https://www.upstart.com",
             "startDate": "2021-11",
+            "endDate": "2023-02",
             "summary": "Senior engineer focusing on increasing lead generation as part of the Growth team.",
             "highlights": [
+                "Collaborated with multiple engineers to split microservices off of the main monolith application",
                 "Worked across multiple teams to quickly implement new loan funding rules to adapt to rapidly changing macro-economic environment",
-                "Led development of new Salesforce integrations to enhance marketing channels",
-                "Collaborated with multiple engineers to split microservices off of the main monolith application"
+                "Led development of new Salesforce integrations to enhance marketing channels"
             ]
         },
         {
