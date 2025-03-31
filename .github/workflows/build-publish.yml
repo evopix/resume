@@ -15,24 +15,14 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
-
-      - name: Install Dependencies
-        run: |
-          npm ci
-          npx playwright install-deps chromium
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
 
       - name: Build
         run: |
           mkdir build
-          npx hackmyresume build resume.json TO build/resume.html -o options.json
-          npx hackmyresume build resume.json TO build/resume.txt build/resume.md
-          node build-pdf.js
+          typst compile --format pdf resume.typ build/resume.pdf
+          # typst compile --format html resume.typ build/resume.html
           cp resume.json ./build
 
       - name: Upload Artifacts
@@ -55,7 +45,4 @@ jobs:
         with:
           files: |
             artifact-resume/resume.pdf
-            artifact-resume/resume.html
-            artifact-resume/resume.md
-            artifact-resume/resume.txt
             artifact-resume/resume.json
