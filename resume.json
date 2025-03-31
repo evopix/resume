@@ -115,27 +115,42 @@
             "name": "Specialties",
             "keywords": [
                 "API Design/Development",
-                "Ruby/Rails",
-                "JavaScript",
-                "NodeJS",
-                "PHP",
-                "AWS",
-                "Docker",
-                "Terraform",
-                "MySQL",
-                "PostgreSQL",
-                "Redis"
+                "DevEx",
+                "DevOps",
+                "AWS"
             ]
         },
         {
-            "name": "Supplemental",
+            "name": "Programming",
             "keywords": [
-                "Python",
                 "Golang",
-                "React",
+                "PHP",
+                "Python",
+                "TS/JS",
+                "Ruby",
                 "Snowflake",
                 "DevOps",
                 "SysAdmin"
+            ]
+        },
+        {
+            "name": "Tools",
+            "keywords": [
+                "MySQL",
+                "PostgreSQL",
+                "Redis",
+                "Airflow",
+                "Docker",
+                "Terraform"
+            ]
+        },
+        {
+            "name": "Interests",
+            "keywords": [
+                "Video Games",
+                "Computer Hardware",
+                "SmartHome/IoT",
+                "Reading"
             ]
         }
     ]
