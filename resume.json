@@ -32,9 +32,8 @@
             "startDate": "2023-02",
             "summary": "Principal engineer in the Product Engineering org working across multiple teams and directly with VPs.",
             "highlights": [
-                "Spearheaded effort to develop and share best practices, improve engineering standards, and formalize development processes (guilds, RFCs, feature flags, etc)",
+                "Spearheaded effort to develop and share best practices, improve engineering standards, and formalize development processes (RFCs, feature flags, Schema First API Design, Trunk based development, etc)",
                 "Led the effort to build and standardize team tooling, including a custom cli tool, in order to improve developer experience.",
-                "Advocated for, and implemented, a number of developer processes improvements such as Schema First API Design, Trunk based development, automated code quality checks, etc.",
                 "Participated in RCA and Technical Design Review meetings",
                 "Created and implemented plan to move teams away from Jenkins and onto more modern systems (CircleCI, Airflow, Windmill)",
                 "Worked with teams to standardize implementation of common features (e.g. health checks, feature flags, preview environments)",
