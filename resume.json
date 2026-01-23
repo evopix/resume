@@ -32,15 +32,23 @@
             "startDate": "2023-02",
             "summary": "Principal engineer in the Product Engineering org working across multiple teams and directly with VPs.",
             "highlights": [
-                "Worked across teams to build and standardize tooling in an effort to increase developer efficiency (e.g. automated code quality checking)",
+                "Spearheaded effort to develop and share best practices, improve engineering standards, and formalize development processes (guilds, RFCs, feature flags, etc)",
+                "Led the effort to build and standardize team tooling, including a custom cli tool, in order to improve developer experience.",
+                "Advocated for, and implemented, a number of developer processes improvements such as Schema First API Design, Trunk based development, automated code quality checks, etc.",
                 "Participated in RCA and Technical Design Review meetings",
-                "Worked across teams and orgs to develop and share best practices, improve engineering standards, and formalize development processes (guilds, RFCs, feature flags, etc)",
                 "Created and implemented plan to move teams away from Jenkins and onto more modern systems (CircleCI, Airflow, Windmill)",
                 "Worked with teams to standardize implementation of common features (e.g. health checks, feature flags, preview environments)",
-                "Impelemented many high priority features across multiple projects",
-                "Worked extensively with DevOps on migrating existing services to new standardized AWS infrastructure (Kubernetes, ArgoCD)",
+                "Impelemented many high priority, customer facing, features across multiple projects with direct impact on revenue",
+                "Worked extensively with DevOps/SRE on migrating existing services to new standardized AWS infrastructure (Kubernetes, ArgoCD)",
                 "Mentored other developers on best practices, implementation approaches, and general career topics",
-                "Worked across multiple projects to reduce major tech-debt"
+                "Collaborated with multiple developers to dig ourselves out a a major tech-debt hole and improve our security posture",
+                "Migrated legacy Terraform code to a new modern Terragrunt based implementation",
+                "Evangelized successful team processes across the entire organization (preview envs, ECS Fargate, secrets handling, etc.)",
+                "Led migration of legacy, as well as implementing new, automated reporting to Airflow",
+                "Implemented a new email automation testing process that had massive impact on DevEx and QA",
+                "Improved the performance of a major queue processor by over 2x by moving to a distributed model",
+                "Improved CI build times for multi-arch Docker images by over 60% (from \\>1hr to \\<20 minutes) by switching to native builders",
+                "Worked with multiple developers to create AI guidance docs for multiple projects (AGENT.md, CLAUDE.md, etc)"
             ]
         },
         {
@@ -81,15 +89,7 @@
             "url": "https://www.drivingsales.com",
             "startDate": "2012-03",
             "endDate": "2014-12",
-            "summary": "Lead backend developer on an analytics platform writing primarily PHP (Kohana Framework). Enhanced data processing and collection capabilities and improved scalability.",
-            "highlights": [
-                "Improved scalability by migrating to AWS OpsWorks platform and splitting a single dedicated server into multiple independently scalable layers",
-                "Built a modular reporting system that could generate many different types of reports",
-                "Migrated database from a combination of MySQL and MongoDB to just PostgreSQL",
-                "Built an efficient export system that could export large amounts of data into many different formats",
-                "Implemented a Redis based job queuing system for all data processing",
-                "Enhanced and extended data mining and aggregation algorithms"
-            ]
+            "summary": "Lead backend developer on an analytics platform writing primarily PHP (Kohana Framework). Enhanced data processing and collection capabilities and improved scalability."
         },
         {
             "name": "BoxWave",
@@ -112,45 +112,37 @@
     ],
     "skills": [
         {
-            "name": "Specialties",
+            "name": "Expertise",
             "keywords": [
                 "API Design/Development",
+                "System Design",
                 "DevEx",
                 "DevOps",
                 "AWS"
             ]
         },
         {
-            "name": "Programming",
+            "name": "Programming Languages",
             "keywords": [
-                "Golang",
+                "Go",
                 "PHP",
                 "Python",
-                "TS/JS",
+                "JavaScript/TypeScript",
                 "Ruby",
-                "Snowflake",
-                "DevOps",
-                "SysAdmin"
+                "SQL"
             ]
         },
         {
-            "name": "Tools",
+            "name": "Tools & Tech",
             "keywords": [
+                "Snowflake",
                 "MySQL",
                 "PostgreSQL",
                 "Redis",
                 "Airflow",
                 "Docker",
-                "Terraform"
-            ]
-        },
-        {
-            "name": "Interests",
-            "keywords": [
-                "Video Games",
-                "Computer Hardware",
-                "SmartHome/IoT",
-                "Reading"
+                "Terraform",
+                "Kubernetes"
             ]
         }
     ]
