@@ -1,5 +1,7 @@
 BUILD_DIR := build
-PDF       := $(BUILD_DIR)/resume.pdf
+DATE      := $(shell date +%Y-%m-%d)
+NAME      := Brandon-Summers
+PDF       := $(BUILD_DIR)/$(NAME)-$(DATE).pdf
 
 .PHONY: all build clean
 

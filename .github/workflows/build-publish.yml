@@ -19,11 +19,7 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       - name: Build
-        run: |
-          mkdir build
-          typst compile --format pdf resume.typ build/resume.pdf
-          # typst compile --format html resume.typ build/resume.html
-          cp resume.json ./build
+        run: make
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
@@ -44,5 +40,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            artifact-resume/resume.pdf
+            artifact-resume/*.pdf
             artifact-resume/resume.json
