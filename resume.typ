@@ -179,6 +179,8 @@
                     for hi in w.highlights [
                         - #eval(hi, mode: "markup")
                     ]
+                } else if ("summary" in w) and (w.summary != none) {
+                    eval(w.summary, mode: "markup")
                 }
             ]
         }
