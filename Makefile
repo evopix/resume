@@ -8,7 +8,7 @@ PDF_GENERIC := $(BUILD_DIR)/resume.pdf
 
 all: build
 
-build: $(PDF) $(PDF_GENERIC) $(BUILD_DIR)/resume.json
+build: $(BUILD_DIR) $(PDF) $(PDF_GENERIC) $(BUILD_DIR)/resume.json
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
