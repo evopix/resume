@@ -32,22 +32,16 @@
             "startDate": "2023-02",
             "summary": "Principal engineer in the Product Engineering org working across multiple teams and directly with VPs.",
             "highlights": [
-                "Spearheaded effort to develop and share best practices, improve engineering standards, and formalize development processes (RFCs, feature flags, Schema First API Design, Trunk based development, etc)",
-                "Led the effort to build and standardize team tooling, including a custom cli tool, in order to improve developer experience.",
-                "Participated in RCA and Technical Design Review meetings",
-                "Created and implemented plan to move teams away from Jenkins and onto more modern systems (CircleCI, Airflow, Windmill)",
-                "Worked with teams to standardize implementation of common features (e.g. health checks, feature flags, preview environments)",
-                "Impelemented many high priority, customer facing, features across multiple projects with direct impact on revenue",
-                "Worked extensively with DevOps/SRE on migrating existing services to new standardized AWS infrastructure (Kubernetes, ArgoCD)",
-                "Mentored other developers on best practices, implementation approaches, and general career topics",
-                "Collaborated with multiple developers to dig ourselves out a a major tech-debt hole and improve our security posture",
-                "Migrated legacy Terraform code to a new modern Terragrunt based implementation",
-                "Evangelized successful team processes across the entire organization (preview envs, ECS Fargate, secrets handling, etc.)",
-                "Led migration of legacy, as well as implementing new, automated reporting to Airflow",
-                "Implemented a new email automation testing process that had massive impact on DevEx and QA",
-                "Improved the performance of a major queue processor by over 2x by moving to a distributed model",
-                "Improved CI build times for multi-arch Docker images by over 60% (from \\>1hr to \\<20 minutes) by switching to native builders",
-                "Worked with multiple developers to create AI guidance docs for multiple projects (AGENT.md, CLAUDE.md, etc)"
+                "Established best practices and formalized engineering standards across teams (RFCs, feature flags, Schema First API Design, trunk-based development)",
+                "Built and standardized team tooling and infrastructure, including a custom CLI to improve developer experience",
+                "Modernized CI/CD pipeline by migrating from Jenkins to CircleCI, Airflow, and Windmill, improving build efficiency",
+                "Led infrastructure migration to standardized AWS architecture with Kubernetes and ArgoCD in partnership with DevOps/SRE",
+                "Delivered high-impact, customer-facing features across multiple projects with direct revenue implications",
+                "Reduced technical debt and improved security posture through systematic collaboration and modernization efforts",
+                "Mentored developers on best practices, implementation approaches, and career development",
+                "Optimized system performance, including 2x improvement in queue processor throughput and 60%+ reduction in Docker build times",
+                "Modernized infrastructure-as-code by migrating legacy Terraform to Terragrunt-based implementation",
+                "Evangelized successful team processes and created AI guidance documentation across the organization"
             ]
         },
         {
@@ -57,11 +51,11 @@
             "url": "https://www.upstart.com",
             "startDate": "2021-11",
             "endDate": "2023-02",
-            "summary": "Senior engineer focusing on increasing lead generation as part of the Growth team.",
+            "summary": "Drove microservices migration, critical financial rule implementation, and Salesforce integration to support rapid growth initiatives.",
             "highlights": [
-                "Collaborated with multiple engineers to split microservices off of the main monolith application",
-                "Worked across multiple teams to quickly implement new loan funding rules to adapt to rapidly changing macro-economic environment",
-                "Led development of new Salesforce integrations to enhance marketing channels"
+                "Decomposed monolithic services into microservices to improve development velocity and reduce technical debt",
+                "Worked across multiple teams to quickly implement critical loan funding rules during macro-economic shifts",
+                "Integrated Salesforce ecosystems to enhance marketing channel efficiency and lead tracking"
             ]
         },
         {
@@ -71,14 +65,14 @@
             "url": "https://www.ispot.tv",
             "startDate": "2015-06",
             "endDate": "2021-11",
-            "summary": "Lead developer on numerous projects as well as managing all team specific DevOps/Infrastructure work.",
+            "summary": "Modernized core architecture and delivery workflows by consolidating data into a unified REST API, automating infrastructure with Terraform, and migrating legacy CI/CD to CircleCI to reduce technical debt.",
             "highlights": [
-                "Led development of new REST API to unify data across all consumers and clients",
+                "Led development of new unified REST API that consolidated data consumption across all consumers and clients",
                 "Led project to rewrite Admin panel in modern framework",
-                "Took over team specific DevOps work from previous engineer",
-                "Migrated all newer projects to use containers and be managed by Terraform",
-                "Built new deployment tool that integrated with our specific workflow",
-                "Aided migration from Jenkins to CircleCI for most of our projects"
+                "Took over team-specific DevOps work from previous engineer",
+                "Containerized legacy projects and implemented Terraform-based infrastructure management",
+                "Built new deployment tool that streamlined our development workflow",
+                "Aided migration from Jenkins to CircleCI for many projects, improving build times, reliability, and reducing technical debt"
             ]
         },
         {
@@ -88,7 +82,7 @@
             "url": "https://www.drivingsales.com",
             "startDate": "2012-03",
             "endDate": "2014-12",
-            "summary": "Lead backend developer on an analytics platform writing primarily PHP (Kohana Framework). Enhanced data processing and collection capabilities and improved scalability."
+            "summary": "Lead Full-stack developer on an analytics platform, architected data processing and collection capabilities and improved scalability."
         },
         {
             "name": "BoxWave",
@@ -97,7 +91,7 @@
             "url": "https://www.boxwave.com",
             "startDate": "2011-05",
             "endDate": "2011-09",
-            "summary": "As part of the development team, my responsibilities included the company’s custom ERP system, customer facing e-commerce website, as well as all new web related projects."
+            "summary": "Full-stack developer working on custom ERP system and e-commerce website, as well as all new web related projects."
         },
         {
             "name": "Seven Springs Sales, LLC",
@@ -106,14 +100,15 @@
             "url": "https://prowheelracing.com",
             "startDate": "2005-09",
             "endDate": "2011-04",
-            "summary": "Originally hired to maintain existing online projects and aid in the creation of marketing materials, my role eventually grew to overseeing a second graphics designer, as well as creating custom web applications for both offline intranet use and online customer use."
+            "summary": "Full-stack developer of working on e-commerce web applications and internal tools."
         }
     ],
     "skills": [
         {
             "name": "Expertise",
             "keywords": [
-                "API Design/Development",
+                "Engineering Leadership",
+                "API Design",
                 "System Design",
                 "DevEx",
                 "DevOps",
