@@ -4,11 +4,11 @@ NAME      := Brandon-Summers
 PDF       := $(BUILD_DIR)/$(NAME)-$(DATE).pdf
 PDF_GENERIC := $(BUILD_DIR)/resume.pdf
 
-.PHONY: all build clean
+.PHONY: all compile clean
 
-all: build
+all: compile
 
-build: $(BUILD_DIR) $(PDF) $(PDF_GENERIC) $(BUILD_DIR)/resume.json
+compile: $(PDF) $(PDF_GENERIC) $(BUILD_DIR)/resume.json
 
 $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
