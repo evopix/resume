@@ -73,6 +73,16 @@
     doc
 }
 
+// Tagline
+#let taglinetext(info) = {
+    if "tagline" in info.basics and info.basics.tagline != none and info.basics.tagline != "" {
+        block(width: 100%)[
+            #emph(info.basics.tagline)
+            #v(-4pt)
+        ]
+    } else {none}
+}
+
 // Job titles
 #let jobtitletext(info, resume_vars) = {
     if ("titles" in info.basics and info.basics.label != none) and resume_vars.showTitle {
@@ -127,6 +137,7 @@
         #jobtitletext(info, resume_vars)
         #addresstext(info, resume_vars)
         #contacttext(info, resume_vars)
+        #taglinetext(info)
     ]
 }
 
