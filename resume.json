@@ -33,9 +33,12 @@
             "startDate": "2023-02",
             "summary": "Principal engineer in the Product Engineering org working across multiple teams and directly with VPs.",
             "highlights": [
+                "Architected and delivered a new programmatic advertising outcomes pipeline end-to-end, from TDP/TDR authorship through implementation, opening up new revenue opportunities",
+                "Prototyped an AdCP Signals Agent service from scratch to explore new AI based programmatic advertising opportunities for our customers",
+                "Led observability platform migration from DataDog/Splunk to OTEL/Dash0 across the entire product org, standardizing monitoring capabilities and reducing costs",
                 "Established best practices and formalized engineering standards across teams (RFCs, feature flags, Schema First API Design, trunk-based development)",
                 "Built and standardized team tooling and infrastructure, including a custom CLI to improve developer experience",
-                "Modernized CI/CD pipeline by migrating from Jenkins to CircleCI, Airflow, and Windmill, improving build efficiency",
+                "Modernized CI/CD pipeline by leading a migration from Jenkins to CircleCI, Airflow, and Windmill, improving build efficiency",
                 "Led infrastructure migration to standardized AWS architecture with Kubernetes and ArgoCD in partnership with DevOps/SRE",
                 "Delivered high-impact, customer-facing features across multiple projects with direct revenue implications",
                 "Reduced technical debt and improved security posture through systematic collaboration and modernization efforts",
