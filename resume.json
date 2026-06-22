@@ -38,13 +38,12 @@
                 "Led observability platform migration from DataDog/Splunk to OTEL/Dash0 across the entire product org, standardizing monitoring capabilities and reducing costs",
                 "Established best practices and formalized engineering standards across teams (RFCs, feature flags, Schema First API Design, trunk-based development)",
                 "Built and standardized team tooling and infrastructure, including a custom CLI to improve developer experience",
-                "Modernized CI/CD pipeline by leading a migration from Jenkins to CircleCI, Airflow, and Windmill, improving build efficiency",
-                "Led infrastructure migration to standardized AWS architecture with Kubernetes and ArgoCD in partnership with DevOps/SRE",
+                "Led infrastructure migration to a standardized AWS account architecture with Kubernetes and ArgoCD in partnership with DevOps/SRE teams",
                 "Delivered high-impact, customer-facing features across multiple projects with direct revenue implications",
                 "Reduced technical debt and improved security posture through systematic collaboration and modernization efforts",
                 "Mentored developers on best practices, implementation approaches, and career development",
-                "Optimized system performance, including 2x improvement in queue processor throughput and 60%+ reduction in Docker build times",
-                "Modernized infrastructure-as-code by migrating legacy Terraform to Terragrunt-based implementation",
+                "Optimized service performance, including 2x improvement in queue processor throughput and 60%+ reduction in Docker build times",
+                "Led infrastructure-as-code and CI/CD modernization efforts by migrating legacy Terraform to Terragrunt-based implementation, and Jenkins to CircleCI/Airflow, improving reliability and reducing technical debt",
                 "Evangelized successful team processes and created AI guidance documentation across the organization"
             ]
         },
